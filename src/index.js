@@ -13,12 +13,7 @@ import settingsReducer from './store/reducers/settings';
 import * as firebase from 'firebase';
 
     var config = {
-        apiKey: "AIzaSyDHeR32hMywAUR3q-68bPcIJ8r3Vo3jUJE",
-        authDomain: "my-chat-app-4dbb1.firebaseapp.com",
-        databaseURL: "https://my-chat-app-4dbb1.firebaseio.com",
-        projectId: "my-chat-app-4dbb1",
-        storageBucket: "my-chat-app-4dbb1.appspot.com",
-        messagingSenderId: "630152829754"
+        /*Put firebase configuration here*/
     };
     firebase.initializeApp(config);
 

@@ -1,0 +1,25 @@
+.message {
+    overflow-wrap: break-word;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.message-header {
+
+}
+
+.sender-profile-picture {
+	/* background: url('../../../assets/man1.jpeg'); */
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.sender-username {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}

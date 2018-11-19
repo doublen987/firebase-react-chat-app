@@ -1,0 +1,102 @@
+.settings {
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: 100px;
+    background:  #284557;
+}
+
+.channels {
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 200px);
+    width:  100%;
+    background:  #38617a;
+}
+
+.search {
+    position: absolute;
+    top: 0px;
+    background: #284557;
+    width:  100%;
+    height: 100px;
+    border-bottom: 5px solid black;
+}
+
+.menu {
+    height: 100%;
+    position: relative;
+}
+
+.search-input {
+    width: 70%;
+    height: 30px;
+    background-color:#7eace8;
+    border: 5px solid #275966;
+    overflow: auto;
+    resize: none;
+    background-image: url("../../assets/search.png");
+    background-position: 3px 3px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 3px 20px 3px 40px;
+    font-size: 0.5em;
+}
+
+.search-input-cotainer {
+    position: relative;
+    top: 30%;
+}
+
+.channels-list {
+    list-style: none;
+}
+
+.setting-container {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+
+.setting {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 5px solid  #182a34;
+    overflow: hidden;
+}
+
+.profile-settings {
+    background: url("../../assets/man.jpeg");
+    background-size: 100% 100%;
+}
+
+.setting:hover {
+    border: 5px solid #7eace8;
+}
+
+.setting:hover .setting-icon{
+    color: #7eace8;
+    cursor: pointer;
+}
+
+.setting-icon {
+    position: relative;
+    top: -4px;
+    left: 6px;
+    color: #182a34;
+}
+
+.channel-link {
+    color: black;
+    text-decoration: none;
+    margin: 20px 0 20px 0;
+}
+
+.channel-link:hover {
+    background-color: #73a1bf;
+}

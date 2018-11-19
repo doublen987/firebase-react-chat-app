@@ -1,0 +1,85 @@
+.send-message-button {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.attachment-button {
+    position: absolute;
+    left: 30px;
+    top: -10px;
+    margin: 0px;
+}
+
+.bottom-chat-tile {
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: 100px;
+    background-color: #4d85a7;
+}
+
+.pickers {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.pickers .picker {
+    margin-left: 10px;
+}
+
+.emote-picker {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 0px;
+    left: 0px;
+}
+
+.command-picker {
+
+}
+
+.chat-input-container {
+    top: 20px;
+    width: auto;
+    height: 40px;
+    position: absolute;
+    right: 150px;
+    left: 100px;
+}
+
+.main-chat {
+    position: absolute;
+    top: 40px;
+    height: calc(100% - 150px);
+    width: 100%;
+    overflow-y: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.chat-input {
+    width: 100%;
+    height: 100%;
+    background-color:#7eace8;
+    border: 5px solid #275966;
+    overflow: auto;
+    resize: none;
+}
+
+.channel-name {
+    position: absolute;
+    top: 0px;
+    width:  100%;
+    height: 40px;
+    background-color: #4d85a7;
+}
+
+.chat {
+    height: 100%;
+    position: relative;
+}

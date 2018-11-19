@@ -1,0 +1,35 @@
+.settings-container {
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.setting-input-container {
+    width: 100%;
+    height: 50px;
+    margin: 20px 20px 20px 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.setting-input {
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: solid 2px #284557;
+    color: #4d85a7;
+    height: 30px;
+    font-size: 25px;
+    width: 200px;
+    padding: 0 20px 0 20px;
+}
+
+.setting-input:focus {
+    outline: none;
+}
+
+.setting-label {
+    color: #284557;
+}
